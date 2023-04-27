@@ -23,7 +23,7 @@ We wanted to create an application which provided a seamless ad-free and highly 
 ## Installation
 
 Link to deployed application:
-https://halcyonlegion.github.io/Project-1-Challenge/
+https://jeanj22.github.io/Project-1-Challenge/ 
 
 
 
