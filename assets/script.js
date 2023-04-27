@@ -40,7 +40,7 @@ $(document).ready(function () {
   
     function recipeSearch(ingredient) {
       // CHANGE API KEY HERE (RECIPE NINJAS)
-      const apiKey = "HH2kIzghVhpMdqxpUcxY41LfNhXM6dtk";
+      const apiKey = "6fa00efe77msh449507b9647ec16p1dd39bjsnf57e929b6834";
       const apiUrl = `https://recipe-by-api-ninjas.p.rapidapi.com/v1/recipe?query=${encodeURIComponent(ingredient)}`;
   
       const settings = {
@@ -58,11 +58,11 @@ $(document).ready(function () {
         displayResults(response);
         updateHistoryList(ingredient);
       });
-    }
+    }jes
   
     function gifSearch(ingredient) {
       //CHANGE API KEY HERE (GIPHY)
-      const apiKey = "6fa00efe77msh449507b9647ec16p1dd39bjsnf57e929b6834";
+      const apiKey = "HH2kIzghVhpMdqxpUcxY41LfNhXM6dtk";
       // You can adjust the limit here for the results, and the maturity - it is set to return 10 results but one is picked by the function below, the rating is set to G which I hope means Universal (i.e. family friendly).
       const apiUrl = `https://giphy.p.rapidapi.com/v1/gifs/search?api_key=${apiKey}&q=${encodeURIComponent(ingredient)}&limit=10&offset=0&rating=g&lang=en`;
   
@@ -72,7 +72,7 @@ $(document).ready(function () {
         url: apiUrl,
         method: "GET",
         headers: {
-          "X-RapidAPI-Key": "ef97436974msha2f90f1e83d332fp1e6007jsnc60c6c3cc314",
+          "X-RapidAPI-Key": "6fa00efe77msh449507b9647ec16p1dd39bjsnf57e929b6834",
           "X-RapidAPI-Host": "giphy.p.rapidapi.com",
         },
       };
